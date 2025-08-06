@@ -1,6 +1,6 @@
-import './Rodape/css'
+import './Rodape.css'
 
-function Rodape () {
+function Rodape() {
     return (
         <>
             <footer className='text-center bg-dark text-white p-3'>
