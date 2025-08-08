@@ -6,6 +6,8 @@ import Rodape from "./Rodape.jsx"
 import Menu from './Menu.jsx'
 import Banner from "./banner.jsx"
 import CalcDolar from "./CalcDolar.jsx"
+import CalcMetros from "./CalcMentros.jsx"
+import CalcCentimetros from "./CalcCentimentros.jsx"
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
         <Menu />
         <Banner />
         <CalcDolar />
+        <CalcMetros />
+        <CalcCentimetros />
       </div>
       <Rodape />
     </>
