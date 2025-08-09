@@ -1,8 +1,7 @@
-import './CalcCentimentros.css'
 import { TbRulerMeasure2 } from "react-icons/tb";
 
-function CalcCentimetro() {
- 
+function CalcCentimetros() {
+
     const calcular = (function () {
         const metro = document.getElementById("metro").value
         const total = metro * 100
@@ -23,5 +22,5 @@ function CalcCentimetro() {
         </>
     )
 }
- 
-export default CalcCentimetro;
+
+export default CalcCentimetros;

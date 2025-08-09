@@ -24,6 +24,16 @@ function Menu() {
                                 Sobre
                             </a>
                         </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="/CalcMetros">
+                                CalcMetros
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="/CalcCentimetros">
+                                CalcCentimetros
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
