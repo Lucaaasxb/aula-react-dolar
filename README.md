@@ -1,12 +1,64 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Conversor de Dólar e Calculadora de Medidas
 
-Currently, two official plugins are available:
+> Projeto React desenvolvido com Vite para conversão de dólar e cálculos de medidas (centímetros e metros).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Descrição
+Este projeto é uma aplicação web que permite ao usuário:
+- Converter valores de dólar para real;
+- Calcular medidas em centímetros e metros;
+- Visualizar um banner, menu de navegação e rodapé personalizados;
+- Navegar entre páginas de Home, Sobre e página de erro (404).
 
-## Expanding the ESLint configuration
+## Funcionalidades
+- Conversor de Dólar para Real com cotação atualizada manualmente;
+- Calculadora de centímetros para metros e vice-versa;
+- Layout responsivo e visual moderno;
+- Navegação entre páginas utilizando React Router.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Instalação
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Lucaaasxb/aula-react-dolar.git
+   ```
+2. Acesse a pasta do projeto:
+   ```bash
+   cd aula-react-dolar
+   ```
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+## Como usar
+1. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+2. Acesse `http://localhost:5173` no navegador.
+
+## Estrutura de Pastas
+```
+src/
+  App.jsx           # Componente principal
+  main.jsx          # Ponto de entrada
+  pages/            # Páginas (Home, Sobre, Layout, NoPage)
+  assets/           # Imagens e outros assets
+  ...               # Outros componentes e estilos
+public/
+  dollar.png        # Imagem do dólar
+  money1.jpeg       # Imagem decorativa
+  ...
+```
+
+## Tecnologias Utilizadas
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+
+## Autor
+Lucas Fagundes
+
+---
+Sinta-se à vontade para contribuir ou sugerir melhorias!
